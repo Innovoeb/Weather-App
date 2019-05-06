@@ -19,4 +19,17 @@ body {
 ._3hour {
   border: 1px solid black;
   width: 800px;
+  height: 220px;
+}
+
+.LV {
+  font-size: 50px;
+}
+
+#cloudy {
+  font-size: 50px;
+}
+
+#rainy {
+  font-size: 60px;
 }

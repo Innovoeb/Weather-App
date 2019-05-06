@@ -15,7 +15,6 @@ const initialState = {
       case 'GET_FORCAST':
         return {...state,
           forcast: action.forcast,
-          weatherIcon: action.weatherIcon
         }
       // check weather api for current temperature and temp his and lows
       case 'GET_WEATHER':
@@ -24,11 +23,6 @@ const initialState = {
           tempHigh: action.tempHigh,
           tempLow: action.tempLow,
         }
-      case 'GET_ICON':
-        return {...state,
-          weatherIcon: action.weatherIcon
-        }
-
       default:
         return state
     }
